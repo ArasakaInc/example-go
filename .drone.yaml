@@ -5,3 +5,6 @@ steps:
   image: golang:1.13
   commands:
   - go build
+trigger:
+  branch:
+  - master
